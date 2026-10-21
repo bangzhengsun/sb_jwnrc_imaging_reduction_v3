@@ -1,0 +1,412 @@
+{
+  "snapshot_utc": "2026-10-21T02:14:47.133368+00:00",
+  "files": [
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_00_sort_uncals.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_00_sort_uncals.py",
+      "sha256": "d73435b1d558a86224dadaddb1a1468026c67a66ac48e85bce6d19d5a3760196"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_01_stage1.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_01_stage1.py",
+      "sha256": "91c44560deb9d8a70babc05de180b72a3ecc2196ea20b98b052ff8f67783f2ce"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_02_stage2_LW.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_02_stage2_LW.py",
+      "sha256": "4530411e8aa00261c919fe8352d9e7c0aabd0a5a11c09d5b02cbe79fec98a3a1"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_02_stage2med_SW.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_02_stage2med_SW.py",
+      "sha256": "8dab0b37f4dc4b144ab3e1944062474f57c2c9666ff8b9b1e31aa0fdb6d56cae"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_03_bkg-sub.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_03_bkg-sub.py",
+      "sha256": "b0918fac2ef22b3e39a230952af1c7246f3cc3bc9050d363d129dd85d06592b7"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_04_RunSextractor.py",
+      "sha256": "150d42ecee9246bc2b371d1db50d37d4f0f4a8045ae38374d28c640588df30e5",
+      "source_directory": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct",
+      "note": "Updated SExtractor configuration reference to sextractor.conf; source_sha256 preserves the original snapshot hash.",
+      "source_sha256": "344cd96aa4fc1d3e94c941e34dfe63f0274bd05561024c51f17e62d7dabf901c"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_05_astrometry.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_05_astrometry.py",
+      "sha256": "25330c13da2d31a69894dbbdb989908cc3403f1b27822c2094aa258e36ba5f6b"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_06_1overf.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_06_1overf.py",
+      "sha256": "20407479b2449da774cb3efa049eff496ecbc0f57df1f3d51e57182a94575ed0"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_07_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_07_image3.py",
+      "sha256": "1d4383c713f85cef3d68a260849904c7d39a6f4ea863885c3910c244699cd878"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_OPT_02_run_image3_resample.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_OPT_02_run_image3_resample.py",
+      "sha256": "b8468604ddab03890cf4669da81a872fa71f5770022af2c3db2ff1de9971d0b0"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/bulk_zipfiles.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/bulk_zipfiles.py",
+      "sha256": "faff8644348adeeadd9605f832e873d67004aee210074f1a09bd0e0d12b3962c"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/find_mosaic_center.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/find_mosaic_center.py",
+      "sha256": "1edfcf93c81d75092d2ca56bbe532cb5f6567a0c174e04628b9ac2b689b60efa"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/nexus_resample_30mas.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/nexus_resample_30mas.py",
+      "sha256": "62202951f68f45c50c7416f2170f71053879ec1d57f21523c3de510412b3ee0c"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/prepare_f200w_nmfwisp_inputs.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/prepare_f200w_nmfwisp_inputs.py",
+      "sha256": "52846f09e9be73ec90a00b703de1f422ecf66adae5e14f2c28e7680f0a31fd70"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/run_f200w_nmfwisp.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/run_f200w_nmfwisp.py",
+      "sha256": "700328c2d9effb1de9e1acd61e4478583edae4c5bf50c22bcea58efea45e6494"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/run_f200w_photom.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/run_f200w_photom.py",
+      "sha256": "45a79bb313d9c29bce8a62588467cbe4266fc0e52706ba76d64e462335d0a3aa"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/run_sci_rms_wht_extraction.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/run_sci_rms_wht_extraction.py",
+      "sha256": "dada18dbea9b5a0c290046e904efe2f014789223f1f5fb05952415dce59f7c35"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/run_sw_background_safe.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/run_sw_background_safe.py",
+      "sha256": "1f72b75ecfabf0bf7b06d1dc348bc53de8d5fd3e40c47fb3418e3ee5970f2a07"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/select_hrms_regions_per_filter.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/select_hrms_regions_per_filter.py",
+      "sha256": "ac9ced1dbbf61aa6a674dd192117d4f2d89eb646cae15d1cf340a6e8f2bfe40c"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/step1_select_regions.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/step1_select_regions.py",
+      "sha256": "55524926ee67c8a1f31e0f75260c65ddfd487abd34e1ac7faee9da4911c5a044"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/step2_calc_hrms.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/step2_calc_hrms.py",
+      "sha256": "354fac43dc24c69b414b455ce3b6a14577a42eca9ed7ed9a796d567f07b6e447"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/SBNRC_05_do_astrometry.sh",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/SBNRC_05_do_astrometry.sh",
+      "sha256": "c64c16d9a4e0239b5f3d6a4842dfaa8bfe129dd904257836b3a1404cb475074a"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/run_nexus_30mas.sh",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/run_nexus_30mas.sh",
+      "sha256": "81f39b2bd651b3f8c36da6243ba379ca6ac302805d2e0a9db6c1361934713ad0"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/run_remaining_on_disk.sh",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/run_remaining_on_disk.sh",
+      "sha256": "32a9db373a2f1a6990e8dc508fa5c2eb0455e92c5af0f0748d306a6f905dbb74"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/nexus.toml",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/nexus.toml",
+      "sha256": "8df7d339f9a68e1b03c5eeb7b9c33d541f00c151eefe74dfb8dc0235f20e75b6"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/sextractor.conf",
+      "sha256": "2ab10f52d7998b2d11845e0d43265416ccb10e062f93604b09ecc483028a8817",
+      "source_directory": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct",
+      "note": "Configuration renamed for publication; source contents and SHA-256 unchanged."
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/outparam.param",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/outparam.param",
+      "sha256": "d4db6e7e68e0b5bb2b33413d49d6b5f0cffdd78c29a10e2557a5e0ad2b486087"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/gauss_2.0_5x5.conv",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/gauss_2.0_5x5.conv",
+      "sha256": "e89515d58dd9b0bcf10044b85a419746479377425a7877d0203f9620a161e9e7"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/scripts/default.nnw",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/default.nnw",
+      "sha256": "f216bbc66cd4ff5aab7737ae78a232f14318a9e67efa80144c25fa6d18c8d2a4"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/recovery/build_extended_reference.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/build_extended_reference.py",
+      "sha256": "bcbbd23fa72e73cb5718d1226d58c53ab75676e4c3804ce6461cac2391244dc2",
+      "source_sha256": "9d524520181fdc114ccc5a58ff0012320862fa88925247bdb579be4e84e1651a",
+      "note": "Updated SExtractor configuration reference to sextractor.conf; source_sha256 preserves the original snapshot hash."
+    },
+    {
+      "path": "src/sbnrc/data/nexus/recovery/local_reference_F356W.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/local_reference_F356W.py",
+      "sha256": "9f497164d8d79996ebac85acb9a0419491744893ba38a42eed597a284bd3f7f7",
+      "source_sha256": "fc7f5eee7dcbf2666bcd58f10474b8d58faefabf6b3e2a271784920aa80db1ec",
+      "note": "Updated SExtractor configuration reference to sextractor.conf; source_sha256 preserves the original snapshot hash."
+    },
+    {
+      "path": "src/sbnrc/data/nexus/recovery/retry_F090W_joint.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/retry_F090W_joint.py",
+      "sha256": "233b6b508510abfa618a225c00e09c68aa3525d8828308a78b7ed3cc2a786a7e"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/recovery/retry_F356W_paired.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/retry_F356W_paired.py",
+      "sha256": "3422597570078738b0d21f8fc1ffa50f771e6a720c6d861b0295d63c69e2b5dd"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/recovery/retry_other_LW_paired.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/retry_other_LW_paired.py",
+      "sha256": "3a1fd2cf44377eb8d0b1996fb00ced0d93ad4e6931c2bc1a849772a58d39d97d"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finish_F090W_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finish_F090W_image3.py",
+      "sha256": "8701c078c134b8486e83709e57ce4d8fe445cd872f04f64833f9e423c882210d"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finish_F115W_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finish_F115W_image3.py",
+      "sha256": "c9a7e42048f7b4df2adc1f6de633ca85e7b8c61357de8fb7148d3f2909307d97"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finish_F150W_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finish_F150W_image3.py",
+      "sha256": "1ad7b4566839423a74d6dc8f7e23663806bef963ff41473d4845fe39961a2b7d"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finish_F200W_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finish_F200W_image3.py",
+      "sha256": "fc6f319b4f54a35d97b7dbdaa8a32ee1f89e796f32aea038d73d24a806274128"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finish_F210M_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finish_F210M_image3.py",
+      "sha256": "3ead983fc7aa81e50129bf5980cd40f43fc6938a650e2813dbded2834a6245cd"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finish_F277W_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finish_F277W_image3.py",
+      "sha256": "67b17b3bcfd16977e8703b8a0394352386e9832cff6d6ec109d421c1a89da23a"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finish_F356W_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finish_F356W_image3.py",
+      "sha256": "2c760136a6e2aaf5e68b06690aecc46546fe0a3ab2846a14865c473b4cda3bed"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finish_F360M_image3.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finish_F360M_image3.py",
+      "sha256": "93a0ed1ecb3aff7213b1720756c1141b7268cb6aae5be06765128aab37491d56"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finalize_F090W_delivery.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finalize_F090W_delivery.py",
+      "sha256": "08e155df60fa2857e8b3f70bfb38c617d89cdd454fa5cc72da3dc0742a59504a"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finalize_F115W_delivery.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finalize_F115W_delivery.py",
+      "sha256": "2e845c52db170d031bac156ca7af227160205b1a376657ac177d72c82c68ffae"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finalize_F150W_delivery.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finalize_F150W_delivery.py",
+      "sha256": "6732060dc53fd5cfa420d54c42f648d175c9dbfd034d49098d5dd6185c084dc0"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finalize_F200W_delivery.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finalize_F200W_delivery.py",
+      "sha256": "dff5cc3a8c07a265bcec172e8afa48504825076273aa5a15c665dbc2b35d1517"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finalize_F210M_delivery.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finalize_F210M_delivery.py",
+      "sha256": "2cac6d6b1da585618c4bc4c18dba9f85275481ef7c201abee30c994c219ee06b"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finalize_F277W_delivery.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finalize_F277W_delivery.py",
+      "sha256": "8881b517979cc27db38aee01cfc1693625db492600355a9c5f8c6350a1f48f57"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finalize_F356W_delivery.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finalize_F356W_delivery.py",
+      "sha256": "338859baf5e35e3ad872912f4a59fff39a5d72c15b90fb6ef6cbdbdda9fc5fd8"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/postprocessing/finalize_F360M_delivery.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/finalize_F360M_delivery.py",
+      "sha256": "3d58cf05756d61cb84ec12127e9a589889b098349f26de1d69f6e81c89490f47"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/execution/run_band.py",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/on_disk_20261016T212546Z/run_band.py",
+      "sha256": "7f39bc449305000b9af9c4954b6b42d89753eaeddbc08992e1d6fbc75430eadc"
+    },
+    {
+      "path": "src/sbnrc/data/support/python_modules/image1overf.py",
+      "source": "/home/bangzhengsun/Research_Data/python_modules/image1overf.py",
+      "sha256": "7e7d0fce6c3cc856e1e366aa214e8834015391a3786ba8dfbd2bed9d90cdc256"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F090W/image3_qc.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F090W/image3_qc.json",
+      "sha256": "e6ff2d35af60d42ef36b9b1312434767799382a6fbb535bb51b91bb7c55bc6dd"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F090W/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F090W/image3.status",
+      "sha256": "45f150990f05f13583be501c5ff264af1f639f7e040bcd8f2740f94268434f7f"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F090W/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F090W/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F115W/image3_qc.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F115W/image3_qc.json",
+      "sha256": "51f27c6d80e347076b8be64463ab9eb40df386454b23d9f21238534ae3726275"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F115W/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F115W/image3.status",
+      "sha256": "488351eed67e81ddea2ca976dbea8ef4acb088fc882278682de3c85a9f94354d"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F115W/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F115W/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F115W/astrometry_user_acceptance.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F115W/astrometry_user_acceptance.json",
+      "sha256": "89b9de54cc4fb8edda3262b88d0be52fc0476d8d6cd2ad5aab8de15bed868f27"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F150W/image3_qc.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F150W/image3_qc.json",
+      "sha256": "cb007628276e5740222605f09612eb0361e4519dde700722763beff5bb7a5462"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F150W/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F150W/image3.status",
+      "sha256": "36e0752ee77f4f61b1f64133cf0d1917472360028a314860b25404cb9597289d"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F150W/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F150W/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F200W/image3_qc.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F200W/image3_qc.json",
+      "sha256": "290674dbde50cb6f91922733a5cb86f196ab365d9aff2f743f24d053b70fbb9c"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F200W/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F200W/image3.status",
+      "sha256": "2b267aa7e01067d4a7f8031bd999a39b450bd364466a11fe4749983144794dd9"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F200W/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F200W/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F210M/image3_qc.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F210M/image3_qc.json",
+      "sha256": "1107451eff48399114261699884afcf427a0862ca958b37c619047532c2e439b"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F210M/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F210M/image3.status",
+      "sha256": "1673acc190dc4fea863dee82bce53603ad4480da9a8f696b13959235c8ce4453"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F210M/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F210M/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F277W/image3_qc.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F277W/image3_qc.json",
+      "sha256": "d416736cd607cc5f3cc69f26f68c95e6451b27a5e5fa3747294e8f2e8fa5b3f5"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F277W/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F277W/image3.status",
+      "sha256": "3a8d4fb4d08b406f63e3434f7b086e48af3551babeaf6650e5656ab418c19f58"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F277W/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F277W/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F356W/image3_qc.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F356W/image3_qc.json",
+      "sha256": "39006e84afc46f3e2f742771b4839a360c5649277f1837458865a7736f620834"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F356W/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F356W/image3.status",
+      "sha256": "21c81f5fba50f0eab20be816809f8376cd06fd29300bda9eaac2902860d71a7f"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F356W/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F356W/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F360M/image3_qc.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F360M/image3_qc.json",
+      "sha256": "4e4219e4d2f67c90ac9ac023fb7ff864b8ae95617f669069a5342362787b0a68"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F360M/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F360M/image3.status",
+      "sha256": "0c36d543048b18c2a47939dcb1f7590e8fee959b964e96864280e6b83604b8c4"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F360M/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F360M/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F444W/image3.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F444W/image3.status",
+      "sha256": "2bfc8496538ce1a146ed21345385eeca8e7ee94992bf024759d5b48bfe90673f"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/F444W/delivery.status",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/F444W/delivery.status",
+      "sha256": "e0b396d19cd2de78ed9c64192dd0d7cb40d9b43f8aefbd6954f739be930a4657"
+    },
+    {
+      "path": "src/sbnrc/data/nexus/qc/selected_regions_per_filter.json",
+      "source": "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/hrms/per_filter/selected_regions_per_filter.json",
+      "sha256": "50a06e6091628cdaa9bd32cbb3188ca9bd30169a4bc4a9ab6e73d0b80cfd390b"
+    }
+  ]
+}

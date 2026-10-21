@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-14T22:02:09.479573+00:00",
+  "filter": "F115W",
+  "stage": "astrometry",
+  "state": "ACCEPTED_BY_USER",
+  "approval": "I think the three in F115W is okay.",
+  "failures": [
+    {
+      "file": "jw09263001012_02101_00002_nrcb1",
+      "matches": 9,
+      "rmse_arcsec": 0.00833455
+    },
+    {
+      "file": "jw09263001024_02101_00001_nrcb4",
+      "matches": 9,
+      "rmse_arcsec": 0.00833461
+    },
+    {
+      "file": "jw09263001036_02101_00002_nrcb2",
+      "matches": 7,
+      "rmse_arcsec": 0.00732597
+    }
+  ],
+  "scope": "Accept these three low-match fits only; retain original automated FAIL QC report. No global threshold change."
+}

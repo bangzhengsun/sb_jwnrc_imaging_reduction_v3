@@ -1,0 +1,10 @@
+{
+  "state": "PASS",
+  "exposures": 288,
+  "shape": [
+    30000,
+    30000
+  ],
+  "WCS": "PASS matches F444W",
+  "valid_pixels": 432515982
+}

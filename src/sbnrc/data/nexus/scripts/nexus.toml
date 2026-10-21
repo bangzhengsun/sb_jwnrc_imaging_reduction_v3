@@ -1,0 +1,180 @@
+schema_version = 1
+
+[field]
+name = "NEXUS"
+base_path = "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct"
+product_prefix = "JWST_NRC_NEXUS_v2026Oct"
+uncal_dir = "uncals"
+
+[software]
+conda_env = "jwst_v3"
+python = "/home/bangzhengsun/anaconda3/envs/jwst_v3/bin/python"
+research_data = "/home/bangzhengsun/Research_Data"
+required_commands = [ "crds", "sex",]
+required_python_modules = [ "jwst", "astropy", "photutils", "jhat", "nmfwisp",]
+
+[crds]
+server_url = "https://jwst-crds.stsci.edu"
+context = "jwst_1596.pmap"
+path = "/mnt/Data_Analysis_1/JWST_Calibrations/"
+
+[filters]
+sw = [ "F090W", "F115W", "F150W", "F200W", "F210M",]
+lw = [ "F277W", "F356W", "F360M", "F444W",]
+
+[expected_exposures]
+F090W = 864
+F115W = 1152
+F150W = 1344
+F200W = 2016
+F210M = 384
+F277W = 48
+F356W = 288
+F360M = 96
+F444W = 432
+
+[astrometry]
+reference_catalog = "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/nexus_f444w_f356w_extended_refcat.ecsv"
+fitgeometry = "shift"
+minobj = 10
+separation = 0.2
+tolerance = 0.1
+searchrad = 3.0
+nclip = 1
+sigma = 0.7
+abs_minobj = 10
+abs_searchrad = 3.0
+abs_nclip = 1
+abs_sigma = 0.7
+abs_separation = 0.2
+abs_tolerance = 0.1
+max_rmse_arcsec = 0.1
+reference_catalog_source = "/mnt/Data_Analysis_7/Data_Reduction/JWST_NRC_NEXUS-Deep_v2026Sep/nexus_f444w_refcat.ecsv"
+
+[background]
+sigma_threshold = 3.0
+minimum_area = 10
+clip_sigma = 3.0
+box_size = 128
+filter_size = [ 5, 5,]
+exclude_percentile = 80.0
+source_mask_radius = 10
+
+[nmfwisp]
+enabled = true
+package_version = "1.1.4"
+preparation_input_glob = "stage2_medstep_bkgsubtract/*rate.fits"
+input_glob = "stage2_medstep_wisprm/*flatfieldstep.fits"
+output_dir = "stage2_medstep_wisprm"
+diagnostics_dir = "nmfwisp_diagnostics"
+affected_detectors = [ "NRCA3", "NRCA4", "NRCB3", "NRCB4",]
+correct_1f_during_fit = true
+automated_qc = true
+require_visual_approval = false
+max_masked_fraction = 0.7
+max_model_rms_to_data_mad = 20.0
+max_detector_robust_z = 12.0
+subtraction_rtol = 1e-5
+subtraction_atol = 1e-6
+
+[one_over_f]
+sigma_bgmask = 3.0
+sigma_1fmask = 2.0
+splitamps = false
+
+[mosaic]
+center_ra_deg = 268.462
+center_dec_deg = 65.199
+derive_center_from_aligned_lw = false
+minimum_total_margin_pixels_60mas = 0
+round_shape_to_pixels_60mas = 1000
+rotation_deg = 0.0
+kernel = "square"
+pixfrac = 1.0
+pixel_scale_60_arcsec = 0.05999999999999976
+shape_60 = [ 30000, 30000,]
+crpix_step_60 = [ 14999.000000000071, 14999.000000000198,]
+pixel_scale_30_arcsec = 0.02999999999999999
+shape_30 = [ 60000, 60000,]
+crpix_step_30 = [ 29999.000000000142, 29999.000000000397,]
+image3_input_suffix = "cal_tweakreg_1overf"
+geometry_finalized = true
+geometry_note = "User explicitly requested the existing NEXUS-Deep collection grids. WCS read from F444W SCI and verified identical to F200W at each resolution."
+reference_sci_60 = "/mnt/Data_Analysis_7/Data_Reduction/JWST_NRC_NEXUS-Deep_v2026Sep/collection/60mas/JWST_NRC_NEXUS-Deep_v2026Sep_F444W_60mas_sci.fits"
+reference_sci_30 = "/mnt/Data_Analysis_7/Data_Reduction/JWST_NRC_NEXUS-Deep_v2026Sep/collection/30mas/JWST_NRC_NEXUS-Deep_v2026Sep_F444W_30mas_sci.fits"
+explicit_user_wcs = true
+
+[hrms]
+detection_filters = [ "F200W", "F444W",]
+box_size_60 = 301
+box_size_30 = 601
+candidate_count = 20
+selected_count = 10
+minimum_selected_count = 5
+stride_60 = 75
+autocorr_aperture = 5
+autocorr_background_annulus = [ 5, 7,]
+
+[execution]
+image3_in_memory_sw = true
+image3_memory_policy = "Try in memory first; retry on disk only after confirmed insufficient memory"
+filter_concurrency = 4
+monitor_poll_seconds = 300
+stage1_monitor = true
+stage7_monitor = true
+preparation_order = [ "F277W", "F356W", "F360M",]
+preparation_concurrency = 1
+lw_filter_concurrency = 2
+sw_filter_concurrency = 4
+sw_predrizzle_concurrency = 3
+drizzle_filter_concurrency = 2
+concurrent_drizzle_exception_filters = ["F150W", "F090W", "F210M", "F115W"]
+concurrent_in_memory_drizzle_filters = ["F090W", "F210M", "F115W"]
+concurrent_in_memory_drizzle_limit = 1
+
+[delivery]
+resolutions = [ "60mas",]
+extensions = [ "sci", "hrms", "wht",]
+zip_each_file = true
+
+[acquisition]
+programs = [ 5105, 9263,]
+manifest = "/mnt/SBHPCData09/Data_Reduction/JWST_NRC_NEXUS_v2026Oct/automation/mast_uncals.json"
+include_exp_types = [ "NRC_IMAGE",]
+query_date_utc = "2026-10-09T21:47:17.027229+00:00"
+
+[astrometry_retry_f356w]
+mode = "paired_modules_same_exposure"
+visits_minimum_5 = ["001033", "001016"]
+default_minimum_matches = 10
+reduced_minimum_matches = 5
+output_dir = "F356W/stage2_cal_aligned_paired_retry"
+
+[[local_reference_f356w]]
+visit = "001016"
+seed_groups = ["jw09263001016_05101_00001", "jw09263001016_07101_00001"]
+target_groups = ["jw09263001016_07101_00002"]
+
+[[local_reference_f356w]]
+visit = "001033"
+seed_groups = ["jw09263001033_07101_00002"]
+target_groups = ["jw09263001033_05101_00001", "jw09263001033_07101_00001"]
+
+[astrometry_retry_other_lw]
+filters = ["F277W", "F360M"]
+mode = "paired_modules_same_exposure"
+minimum_matches = 10
+reference_catalog = "nexus_f444w_refcat.ecsv"
+
+[reference_extension]
+source_filter = "F356W"
+coverage_filter = "F444W"
+selection = "F356W positive weight outside F444W positive weight"
+dedup_radius_arcsec = 0.2
+output_catalog = "nexus_f444w_f356w_extended_refcat.ecsv"
+
+[astrometry_retry_f090w]
+mode = "joint_eight_detectors_same_exposure"
+minimum_matches = 10
+output_dir = "F090W/stage2_cal_aligned_joint8_retry"
+selection = "Exposure groups containing the 53 original QC-flagged frames"

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sb-jwnrc-imaging-reduction-v3"
+version = "0.1.0"
+description = "SBNRC NIRCam workflow and reproducible JWST 3.0.0 reduction record"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Bangzheng Sun"}]
+dependencies = []
+
+[project.optional-dependencies]
+reduction = ["jwst==3.0.0", "nmfwisp==1.1.4", "astropy", "photutils", "scipy", "matplotlib", "numpy", "tqdm", "ipython", "astroquery"]
+
+[project.scripts]
+sbnrc = "sbnrc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sbnrc = ["data/**/*"]
