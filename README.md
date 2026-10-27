@@ -1,4 +1,4 @@
-Disclaimer: preparation of this pipeline was done with the assistance of Generative AI tool ChatGPT using the GPT-6 Astra model.
+Disclaimer: Generative AI tool ChatGPT (GPT-6 Astra) was used to prepare this pipeline for GitHub repository. The pipeline itself was mostly human-written and parts involving GAI were all validated. 
 
 # SBNRC: JWST NIRCam imaging reduction, pipeline 3.0.0
 
